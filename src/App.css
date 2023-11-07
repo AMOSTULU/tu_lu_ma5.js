@@ -1,0 +1,32 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Style for the grid */
+div {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  gap: 10px;
+}
+
+/* Style for the individual cells */
+div > div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid grey;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Style for "on" cells */
+div > div.on {
+  background-color: black;
+}
